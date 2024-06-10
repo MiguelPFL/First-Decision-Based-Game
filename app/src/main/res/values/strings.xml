@@ -1,0 +1,2166 @@
+<resources>
+    <string name="app_name">Deduyo_Decision_Based_GameG7</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="startButton">Start Game</string>
+    <string name="desc">yellow begone</string>
+    <string name="Title">Can Polymaths learn how to fall in love?</string>
+
+    //DISCLAIMER: apostrophe doesnt work so dont use that symbol
+
+    //Contains the plot for the story
+
+    //Story Progression
+
+    <string-array name="intro_default">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Huh? Class has been dismissed. Oh well, I better keep going.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+
+    <string-array name="turn_1">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>Hey Nozomi-san, have you found a club yet?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="turn_2">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>Hey Nozomi-san, have you found a club yet?</item>
+
+        //buttons
+        <item>No I havent, why do you ask?</item>
+        <item>No but Ill be totally fine!</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_3">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>Oh, about that. Today is the deadline for the club annual fair. You better hurry up!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_4">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>My bad! I totally forgot about that! Thanks for reminding me!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+
+
+    <string-array name="turn_5">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>No problem Nozomi-san! Im pretty sure you can find a club. After all, you are the famed Virtuoso Maiden.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_6">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>No problem Nozomi-san! Im pretty sure you can find a club. After all, you are the famed Virtuoso Maiden.</item>
+
+        //buttons
+        <item>You bet!</item>
+        <item>I still dont know why people call me that. Anyways its getting late so Ill head home now.</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_7">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Nozomi tries to get into every club but her  applications get rejected due to three  main reasons which are her outstanding ability to  excel in any club, her cold demeanor, and the club roster being full.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_8">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im so tired of running around the campus around the campus! Im running out of options now. Now what should I do? Wait, isnt that-</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_9">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im so tired of running around the campus around the campus! Im running out of options now. Now what should I do? Wait, isnt that-</item>
+
+        //buttons
+        <item>Getsumei Ryokou?</item>
+        <item>Kikoutei Mitsuru?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="ryoku_route1"> //ryoku route (also turn 10 if you pick ryoku)
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Nozomi! My rival in academic competitions during middle school.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="mitsuru_route1"> //mitsuru route (also turn 10 if you pick mitsuru)
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Well if it isnt Nozomi-san, the star player of the womens volleyball team in Hyaku High School.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_11">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Its been a while! What brings you here?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_12">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>We suddenly bumped into each other because we both couldnt find a club.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_13">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Ive been thinking about that as well. We are running out of options here, unless-</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_14">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Unless?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_15">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>We make our own club! A club consisting of talented individuals!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_16">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>How is that going to work? Each of us excel at completely different things. Is there any other way?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_17">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>How is that going to work? Each of us excel at completely different things. Is there any other way?</item>
+
+        //buttons
+        <item>Well we can work with that.</item>
+        <item>This is the only way. If we dont make it on time, we are toast!</item>
+        <item>We are doing this right now! I dont want to repeat a year!</item>
+        <item>This might all seem sudden to you guys but trust me, its going to work!</item>
+
+    </string-array>
+
+    <string-array name="turn_18">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Before we head to the student council office for approval, what exactly is the club going to be like?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_19">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im going to call it the Polymaths Club. I know that this might be difficult for you but I promise to do my best in order to make this years festival fun.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_20">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Aside from sports, I dont really excel in anything else. Im pretty sure you knew about that. We were classmates after all. </item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_21">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Relax, I got this! Come on, lets head to the student councils office!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_22">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>30 minutes later</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_23">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>Indeed this is a good proposal, however Im afraid that I cannot accept it.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_24">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>Indeed this is a good proposal, however Im afraid that I cannot accept it.</item>
+
+        //buttons
+        <item>Why? Are there conditions we havent met yet?</item>
+        <item>Seriously? If you think its such a good idea, then why reject it?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_25">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>You will need a fourth member in order for your club to be recognized as an official one.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_26">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>You will need a fourth member in order for your club to be recognized as an official one.</item>
+
+        //buttons
+        <item>Who is that?</item>
+        <item>Whats a first year student doing here?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_27">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>My name is Tadashi Sota. I am the student councils treasurer and Im interested in joining your club.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_28">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Sweet! Kaichou-san, will you now accept our proposal?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_29">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>Yes, but Sota are you sure? Joining two clubs at the same time might be difficult for you.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_30">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Ill be fine. This might be a good opportunity for me to play games that I like after all.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_31">
+        //charName
+        <item>Student Council President</item>
+
+        //txtBox
+        <item>Very well, members of the Polymath Club, Ill be sending your application to the administration and you may begin your club activities next week. Good luck!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_32">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Time has passed by and the members of the Polymaths Club have begun brainstorming ideas for the upcoming cultural festival.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_33">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Since we will be showcasing our talents for the festival, I have thought of some activities we will be doing!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_34">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>What do you have in mind Nozomi?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_35">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Music! By learning the concept of music, we can learn different musical instruments! How does that sound?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_36">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>But isnt that kinda hard?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_37">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>But isnt that kinda hard?</item>
+
+        //buttons
+        <item>It will be a breeze Mitsuru-san! Trust me!</item>
+        <item>Youll manage. Shall we begin?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_38">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Alright then. Lets do this!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_39">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Nozomi Haruka has begun teaching the club members all she learned about music in the hopes of yielding good results.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_40">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Youre amazing Nozomi-san! I didnt expect you to be this good at teaching.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_41">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Its no big deal. How are you two holding up?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_42">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Sato-chii is right, youre kinda good at this!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_43">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Not bad Nozomi-san.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_44">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Alright! By next week we will start practicing together!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_45">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Our main characters are learning at an amazing pace and Nozomi decided to step it up.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_46">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>It seems like theyre doing pretty well but midterms are coming soon. They probably need some help. In that case-</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_47">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>door opens</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_48">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Are you going to make this your next major club activity? Its a great idea if you ask me.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_49">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Sota-kun! You surprised me! What brings you here? Didnt I tell you guys that there was no meeting today?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_50">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>I just happened to pass by after attending a student council meeting. I noticed that you were doing something important so I decided to take a peek.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_51">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Then I guess you knew what I was planning to do. The thing is, I dont know how to approach them.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_52">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Wait, I thought you knew Ryoku-senpai and Mitsuru-senpai back then?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_53">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Wait, I thought you knew Ryoku-senpai and Mitsuru-senpai back then?</item>
+
+        //buttons
+        <item>Yeah but only on the surface level</item>
+        <item>In our previous years, we only meet each other in practice games or competitions</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_54">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Oh I see, why not try to hang out with the two of them. You could know them more on a personal level.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_55">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Oh I see, why not try to hang out with the two of them. You could know them more on a personal level.</item>
+
+        //buttons
+        <item>Hang out on a weekend? Like a date or something?</item>
+        <item>You may have a point, fair enough.</item>
+        <item>I see, but how am I supposed to set it up?</item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_56_firstroute">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Well if you want to put it that way, would you want to date one of them?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_56_secondroute">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Try inviting them during the weekends, I guess it will turn out just fine</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_57_firstroute">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Sato! First of all this was your idea! This is for the club after all so its not a date!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_57_secondroute">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>But will things be really fine?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_58_firstroute">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Relax senpai! I was just trying to lighten up the mood. After all, you look better when you smile.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_58_secondroute">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Trust me, Ive played enough games to see where this is going.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_59">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Oh, well thank you then.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_60">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Nozomi leaves the clubroom and goes home. She then goes inside her room and decides who to call first.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_61">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Nozomi leaves the clubroom and goes home. She then goes inside her room and decides who to call first.</item>
+
+        //buttons
+        <item>Call Mitsuru</item>
+        <item>Call Ryoku</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_62_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Hey Nozomi whats up? Im about to sleep now cause I have to do a morning jog.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_62_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Nozomi-san, what brings you up this late?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_63_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Hey Nozomi whats up? Im about to sleep now cause I have to do a morning jog.</item>
+
+        //buttons
+        <item>Are you free this weekend? I just wanted to take a breather with you.</item>
+        <item>Wanna hang out next weekend? Lets take a break together.</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_63_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Nozomi-san, what brings you up this late?</item>
+
+        //buttons
+        <item>I was just thinking of a break lately. Wanna hang out?</item>
+        <item>Im sorry for calling you this late. Do you want to hang out with me during the weekend?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_64_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Sweet! Thats awesome! Count me in!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_64_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Sure. Send me the details and Ill come over. See ya.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_65_mitsuru_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The following weekend, they meet at the golf court and had fun playing. They decided to find a place to eat afterwards.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_65_ryoku_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>By the following weekend, they decided to go to the arcade to play games. They went in a cafe afterwards.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_66_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>So what do you think of the nearby place?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_66_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>The coffee here tastes so good dont you think?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_67_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>So what do you think of the nearby place?</item>
+
+        //buttons
+        <item>The place feels cozy and warm. I like the atmosphere.</item>
+        <item>The food here is amazing. Thank you for recommending this place!</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_67_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>The coffee here tastes so good dont you think?</item>
+
+        //buttons
+        <item>Indeed! This is the kind of place where I can relax.</item>
+        <item>The aroma smells good as well. I love the smell of coffee!</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_68_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>I usually go here at the end of every good practice I had back then.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_68_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Now that we had our fill of coffee, I assume you called me over for a discussion.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_69_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>By the way, didnt you call me over here to talk about our club?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_69_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Always sharp as ever Ryoku. I am actually planning to help you and Mitsuru on your weaknesses.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_70_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>About that, I was planning on strengthening our weaknesses in the next activity. Are you willing to comply?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_70_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Sota-kun wil be fine as long as he treats it like a game. But before we will start on the activity,</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_71_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>If its for the sake of our club, Ill allow it! But why go so far to hang out just to talk about this?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_71_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>I wanted to ask you why you are not willing to be involved in sports?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_72_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Well there is something Id like to ask you if you dont mind.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_72_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>I do not have passion to do physical activities. It is because the root of my problems lie within my family.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_73_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>What is it?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_73_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>My parents and my younger brother are athletes and no matter how hard I try, I can never be like them so I try to be different.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_74_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Ever since we have established this club I noticed something different from you.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_74_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>I wanted to find something I like to do. To find my own passion. But my family had placed so much expectations on me to become an athlete like them.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_75_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>And Im pretty sure that every club that involves physical activities will accept you, but why didnt they?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_75_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>My father was disappointed in me for not living up to their expectations in becoming an athlete like them. Rumors and gossip about me started to spread.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_76_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Its not that I wasnt accepted, its just that I held back. I just felt like the atmosphere felt tense, brimming with that unwelcoming aura.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_76_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>After all of those, I decided not to care about it and have more confidence in myself. After all, it was the most logical choice for me.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_77_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Thank you for telling me all of this Mitsuru. It was nice of you to open up to me.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_77_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im glad that you opened up to me Ryoku. I honestly admire your resolve. Not everyone has that kind of passion in their hearts.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_78_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>No worries we have been good friends lately so thats cool.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_78_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Haruka . . .</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_79_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>However I must say that you musnt let those things get to you. You need to speak up your own mind and speak it out loud enough for them to hear.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_79_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Whats wrong Ryoku-san?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_80_mitsuru_route">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Youre right Nozomi-san, thank you for that. Now do you wanna have seconds?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_80_ryoku_route">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Nothing, Im just surprised that no one has ever told me that before. Thank you Nozomi-san.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_81_mitsuru_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Hehe alright!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_81_ryoku_route">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Youre welcome. Thank you for taking the time to hear me out. Im going to take the train now.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_82_mitsuru_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The next day, Nozomi hangs out with Ryoku and she will approach him similarly to Mitsuru. As time passes by, the group focuses on their weaknesses in order to pass their midterm exams.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_82_ryoku_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The next day, Nozomi hangs out with Mitsuru and she will approach him similarly to Ryoku. As time passes by, the group focuses on their weaknesses in order to pass their midterm exams.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_83_mitsuru_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>After the exam, Nozomi decides to call a club meeting for their final activity. Sota was having a hard time so Haruka decides to help him.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_83_ryoku_route">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>After the exam, Nozomi decides to call a club meeting for their final activity. Sota was having a hard time so Haruka decides to help him.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_84">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Looks like this is gonna take a while senpai.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_85">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Looks like this is gonna take a while senpai.</item>
+
+        //buttons
+        <item>Whats wrong Sato?</item>
+        <item>Is there anything you need?</item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_86">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Its nothing, its just that I cant focus. Art is a subjective topic and Im not used to doing these kinds of stuff. There is no competition in this kind of field.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_87">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>If theres no one else to compete with, why not compete with yourself? Think of art as a PvE game in a gamers perspective.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_88">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>Wow, in all of my years in playing video games, I have never thought about that in this kind of situation. This just might work. Thanks Haruka-senpai!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_89">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>No problem. Im glad that I could help.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_90">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The members of the Polymath Club are working hard to create artwork that will be displayed in their club room that will be showcased to the other students during the club festival.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_91">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>They were also in charge of performing as a band on the last day of the festival. Their performance was said to be on par with the Music Club.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_92">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The students in the audience made loud noises and cheered for them which set up a good finale for the festival to end. Even the student council were impressed by the bands performance.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_93">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>After a week, the school announced the award for the years best club performance and to the students surprise, it went to the Polymath Club. The members celebrate their victory in a ramen shop.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_94">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Wow! Im stuffed! This ramen tastes so good!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_95">
+        //charName
+        <item>Sota</item>
+
+        //txtBox
+        <item>I know right senpai?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_96">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Well, thats not the only thing that tastes good, our victory does so as well!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_97">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Of course! I want to acknowledge the efforts of our teacher, the club leader, Nozomi Haruka!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_98">
+        //charName
+        <item>Everyone</item>
+
+        //txtBox
+        <item>CHEERS!</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_99">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Thank you so much guys! This means so much to me! But what truly matters is that all these wouldnt happen without your dedication and efforts towards this club.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_100">
+        //charName
+        <item>Sato</item>
+
+        //txtBox
+        <item>Indeed. This has been a great experience for me. This will be the last time I get to see each other as clubmmates. I thank you from the bottom of my heart senpais.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_101">
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>It was great having you as a club member, no as a friend, Sato-kun.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_102">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Everyone finishes their food and decides to leave</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_103">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>So Nozomi-san, where are you going?</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_104">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>So Nozomi-san, where are you going?</item>
+
+        //buttons
+        <item>I will head onto the sports festival meeting since I am one of the representatives.</item>
+        <item>I have to return this book to the library before its too late.</item>
+        <item>I will be heading home early. See ya tomorrow!</item>
+        <item>I left my homework in the club room. You guys can go on without me.</item>
+
+    </string-array>
+
+    <string-array name="turn_105_route1">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Nozomi and Mitsuru decides to go for a walk at the nearby park before leaving. He tells Haruka that the moon is beautiful, which is basically an indirect confession.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_106_route1">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Haruka was surprised at first but after some time, she accepts his proposal and the idea of them being together.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_107_route1">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Haruka was surprised at first but after some time, she accepts his proposal and the idea of them being together.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Check other endings</item>
+
+    </string-array>
+
+    <string-array name="turn_105_route2">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Ryoku joins her since he also wanted to borrow the book from her. Nozomi asked him what book he needed and he responds with a line from a novel which Nozomi recognizes. Ryoku confesses to her in the spur of the moment</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_106_route2">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>and Haruka laughs because of how Ryoku turned out to be a much more mellow person in contrast to his usual, cold demeanor. Nozomi eventually accepted the offer and went out with Ryoku.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_107_route2">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>and Haruka laughs because of how Ryoku turned out to be a much more mellow person in contrast to his usual, cold demeanor. Nozomi eventually accepted the offer and went out with Ryoku.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Check other endings</item>
+
+    </string-array>
+
+    <string-array name="turn_105_route3">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Our story ends here when a slightly unfortunate cast of members, turned into one of the most recognized students in school. Nothing much has changed in their daily lives as they continued to enjoy the rest of their high school days.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_106_route3">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The friendship between the members of the Polymath Club continues to grow stronger until the end of their third year.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_107_route3">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>The friendship between the members of the Polymath Club continues to grow stronger until the end of their third year.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Check other endings</item>
+
+    </string-array>
+
+    <string-array name="turn_105_route4">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>Sota accompanies Nozomi as he also left some important documents inside the club room. The rest of the members parted ways and headed home.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_106_route4">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>As Sota and Nozomi heads into the club room, Sato decided to confess his feelings to Nozomi. She reciprocates his feelings because she knew that Sota was a man of good character.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="turn_107_route4">
+        //charName
+        <item> </item>
+
+        //txtBox
+        <item>As Sota and Nozomi heads into the club room, Sato decided to confess his feelings to Nozomi. She reciprocates his feelings because she knew that Sota was a man of good character.</item>
+
+        //buttons
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Check other endings</item>
+
+    </string-array>
+
+</resources>

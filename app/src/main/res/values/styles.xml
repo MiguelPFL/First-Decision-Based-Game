@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Widget.Theme.Deduyo_Decision_Based_GameG7.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Deduyo_Decision_Based_GameG7.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="startTitle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">@font/blacksword</item>
+    </style>
+
+    <style name="startButton" parent="Widget.AppCompat.Button.Small">
+        <item name="backgroundTint">#a6b0f0</item>
+        <item name="android:textSize">7sp</item>
+        <item name="fontFamily">@font/</item>
+    </style>
+
+</resources>
